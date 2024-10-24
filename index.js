@@ -13,7 +13,7 @@ function speak(text){
 
     my_speak.rate=1
     my_speak.pitch=1
-    
+    my_speak.volume=1
     my_speak.lang="hi-GB"
    
     window.speechSynthesis.speak(my_speak)
